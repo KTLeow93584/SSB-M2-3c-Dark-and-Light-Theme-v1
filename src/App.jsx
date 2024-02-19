@@ -23,7 +23,7 @@ function App() {
 
         <Row className="w-100">
           <Col className="col-12 d-flex justify-content-center">
-            <p className={`fs-5 fw-bold ${isDarkMode ? "text-light" : "text-black-50"}`}>Dark Theme</p>
+            <p className={`fs-5 fw-bold ${isDarkMode ? "text-light" : "text-black-50"}`}>{isDarkMode ? "Dark Theme" : "Light Theme"}</p>
           </Col>
         </Row>
 
